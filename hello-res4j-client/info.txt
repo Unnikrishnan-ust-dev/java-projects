@@ -1,0 +1,3 @@
+Resilience 4j client application.
+Here we use circuit breakers to intercept service down errors.
+Also the configguration for yaml is here for resilience.

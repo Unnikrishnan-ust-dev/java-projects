@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: hellogateway
+  cloud:
+    gateway:
+      routes:
+        - id: helloservice-route
+          uri: http://localhost:8071
+          predicates:
+            - Path=/rest/service/** 
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+    gateway:
+      enabled: true
+
+server:
+   port: 8073  
