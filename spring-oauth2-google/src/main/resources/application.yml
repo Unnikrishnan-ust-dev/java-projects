@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    password: root123
+    url: jdbc:mysql://localhost:3306/oauth
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+  security:
+    oauth2:
+      client:
+        registration:
+         google:
+          clientId: 1056407846157-cg81fmmj5gdit0sm91tr630f4ri8hdl6.apps.googleusercontent.com
+          clientSecret: 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
+          scope:
+           - email
+           - profile
+
+server:
+  port: 9091
