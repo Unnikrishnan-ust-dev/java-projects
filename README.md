@@ -1,7 +1,8 @@
-# Repository Overview
+# Java Projects Documentation
 
 This repository contains various Spring Boot, Java, and microservices projects that explore multiple aspects of modern application development, including database integration, messaging systems, security, and resilience patterns. Each project highlights specific technical skills and concepts.
 
+[Link for the repository for all java projects](https://github.com/Unnikrishnan-ust-dev/java-projects.git)
 ## Projects
 
 ### 1. **CircuitBreakerService**
